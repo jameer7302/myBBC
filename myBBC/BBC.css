@@ -1,0 +1,376 @@
+ <style type="text/css">
+        
+            #topbar {
+                
+                width: 1100px;
+                margin: 0 auto;
+                height: 40px;
+                
+            }  
+            
+            body{
+                
+                margin: 0;
+                padding: 0;
+                font-family:  Helvetica, Arial, sans-serif;
+
+            }
+            
+            #logo{
+                
+                margin-top: 5px;
+               
+                width: 90px;
+                float: left;
+                margin-right: 8px;
+            }
+            
+            .topbar-section{
+                
+                float: left;
+                border-left: 1px #cccccc solid;
+                height: 100%;
+                
+            }
+            
+            #signin-image{
+                
+                width: 30px;
+                margin: 10px 15px ;
+                float: left;
+                
+            }
+            
+            #signin-text{
+                
+                font-size: 90%;
+                font-weight: bold;
+                position: relative;
+                top: 15px;
+                padding-right: 50px;
+            }
+            
+            #wiggly-line{
+                
+                float: left;
+                height: 40px;
+                padding-right: 5px;
+                
+            }
+            
+            #twitter{
+                
+                height: 20px;
+                width: 20px;
+                margin: 9px 9px ;
+                float: left;
+                
+            }
+            
+            .topbar-menu{
+                
+                font-weight: bold;
+                font-size: 90%;
+                padding: 15px 15px 0px 15px;
+                height: 25px ;
+                
+                
+            }
+            
+            #more-arrow{
+                 
+                margin-left: 19px;
+                width: 12px;
+                
+                
+            }
+            
+            #search-box{
+                
+                background-color: #E4E4E4;
+                border: none;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 5px;
+                margin: 5px 0 5px 5px;
+                float: left;
+                
+            }
+            
+            #magnifying-glass{
+                
+                height: 26px;
+                margin: 5px 0;
+                
+            }
+            
+            .clear{
+                
+                clear: both;
+            }
+            
+            #menu-bar-container{
+                
+                border-top: 1px solid #cccccc;
+                background-color: #BB1919;
+                width: 100%;
+                height: 70px;
+                
+            }
+            
+            #menu-bar{
+                
+                width: 1100px;
+                margin: 0 auto;
+                
+            }
+            
+            h1{
+                
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+                float: left;
+                
+            }
+            
+            #local-news{
+                
+                border: 1px #BB8954 solid; 
+                float: right;
+                width: 160px;
+                position: relative;
+                right: 105px;
+                margin-top: 10px;
+                padding-left: 10px;
+                
+            }
+            
+            #local-news a{
+                
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                position: relative;
+                bottom: 7px;
+                
+            }
+            
+            #local-news a:hover{
+                
+                text-decoration: underline;
+            }
+            
+            #local-news img{
+                
+                height: 25px;
+                padding-top: 5px;
+                
+            }
+            
+            #menu-bar-2-container{
+                
+                background-color: #A91717;
+                width: 100%;
+                
+            }
+            
+            #menu-bar-2{
+                
+                width: 1100px;
+                margin: 0 auto;
+                height: 38px;
+                padding-right: 15px;               
+            }
+            
+            #menu-bar-2 a{
+                
+                color: white;
+                text-decoration: none; 
+                padding: 0 12px;
+                border-right: 1px #BB8954 solid;
+                font-size: 15px;
+                position: relative;
+                top: 10px;
+               
+            }
+            
+            #menu-bar-2 a:hover{
+                
+                text-decoration: underline;
+            }
+            
+            .no-border{
+                
+                border: none !important;
+                
+            }
+            
+            #down-arrow{
+                
+                width: 12px;
+                position: relative;
+                top: 10px;
+                
+            }
+            
+            #page-container{
+                
+                width: 1100px;
+                margin: 0 auto;
+                
+            }
+            
+            #main-article h2{
+                
+                font-weight: normal;
+                margin-top: 40px;
+                font-size: 20px;
+                border-bottom: 3px solid  #A91717;
+                width:90px;
+                
+            }
+            
+            h3 a{
+                
+                color: black;
+                font-size: 30px;
+                text-decoration: none;
+                
+            }
+            
+            h3 a:hover{
+                
+                color: #1167a8;
+            }
+            
+            #article-summary{
+                
+                color: #5a5a5a;
+                width: 220px;
+                float: left;
+            }
+            
+            .clock{
+                
+                height: 15px;
+                
+            }
+            
+            #topic-link{
+                
+                text-decoration: none;
+                color: #a91717;
+                font-weight: bold;
+                border-left: 1px solid #cccccc;
+                padding-left: 13px;
+                
+            }
+            
+            #article-summary a:hover{
+                
+                color: #1167a8;
+                
+            }
+            
+            .date{
+                
+                padding-right: 7px;
+                
+            }
+            
+            #article-container{
+                
+                float: left;
+                width: 675px;
+                border-right:1px solid #cccccc;
+            }
+            
+            #main-article-image{
+                
+                width: 390px;
+                margin-left: 20px;
+                border: 1px solid #cccccc;
+                padding-right 40px;
+              
+            }
+
+            #article-hr{
+
+              border-top: 1px solid #BB1919;
+              width: 50px;
+
+            }
+            
+           .article-link{
+                
+                color: black;
+                text-decoration: none;
+            }
+            
+            h4{
+                
+                font-weight: normal;
+                font-size: 20px;
+                
+            }
+            
+            .watch-listen-link{
+                
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+                width: 250px;
+                
+            }
+            
+            #watch-listen{
+                
+                width: 300px;
+                float: left;
+                margin-left: 40px;
+                                
+            }
+            
+            .article-side-image{
+                
+                float: left;
+                width: 90px;
+                margin-right: 10px;
+                
+            }
+            
+            .side-date{
+                
+                color: #5a5a5a;
+                
+            }
+            
+            .side-article{
+                
+                float: right;
+                width: 300px;
+                
+            }
+            
+            #next-section-container{
+                
+                width: 1100px;
+                margin: 0 auto;
+                
+            }
+            
+            #nx-hr{
+                
+                width: 600px;
+                float: left;
+                position: relative;
+                bottom: 225px;
+                
+            }
+        
+        </style>
